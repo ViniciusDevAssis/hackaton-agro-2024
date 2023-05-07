@@ -2,12 +2,16 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto+Flex:wght@400;500&family=Roboto:wght@400;500;700&display=swap');
 
-
-nav, footer, h1, h2 {
+/* ----- NAVBAR ----- */
+nav, footer, h1, h2, .saiba-mais {
     font-family: 'Poppins';
+    font-weight: var(--semibold);
 }
 
 nav {
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
     display: flex;
     flex-direction: row;
     background-color: var(--azul-escuro);
@@ -19,11 +23,9 @@ nav {
 
 }
 
-
 .navbar-right a{
     text-decoration: none;
     color: var(--branco-neve);
-    font-weight: var(--semibold);
     padding-left: 80px;
     font-size: var(--grande);
 }
@@ -35,4 +37,45 @@ nav {
 
 span {
     color: var(--amarelo-padrao)
+}
+
+/* ----- QUEM SOMOS ----- */
+
+.sector-1 {
+    display: flex;
+    background-color: var(--azul-medio);
+    padding-top: 80px;
+}
+
+article p{
+    font-family: 'Roboto';
+    padding: 0px 48px 16px 0px;
+}
+
+.quem-somos {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: var(--azul-medio);
+    padding-left: 160px;
+    color: var(--azul-cinza);
+    font-size: var(--medio);
+}
+
+.quem-somos h2{
+    color: var(--branco-neve);
+    font-size: var(--colossal);
+    max-width: 350px;
+    padding-bottom: 16px;
+}
+
+.img-uniao img {
+    margin-top: 16px;
+    max-width: 600px;
+    max-height: 350px;
+    box-shadow: -5px 10px 15px rgba(0, 0, 0, 0.50);
+}
+
+.saiba-mais {
+    color: var(--amarelo-padrao);
 }
