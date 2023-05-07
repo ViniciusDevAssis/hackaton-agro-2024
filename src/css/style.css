@@ -47,7 +47,7 @@ span {
     padding-top: 80px;
 }
 
-article p{
+.quem-somos p{
     font-family: 'Roboto';
     padding: 0px 48px 16px 0px;
 }
@@ -78,4 +78,50 @@ article p{
 
 .saiba-mais {
     color: var(--amarelo-padrao);
+}
+
+/* ----- A IDEIA ----- */
+
+.sector-2 {
+    display: flex;
+    background-color: var(--azul-medio);
+    padding-top: 16px;
+}
+.img-debate {
+    position: absolute;
+}
+
+.img-debate img {
+    margin-top: 16px;
+    max-width: 600px;
+    max-height: 350px;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.50);
+}
+.vazia {
+    flex:1;
+}
+
+.a-ideia {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    background-color: var(--azul-medio);
+    padding: 32px 160px 16px 160px;
+    color: var(--azul-cinza);
+    font-size: var(--medio);
+    text-align: right;
+}
+
+.a-ideia h2{
+    text-align: right;
+    margin-left: auto;
+    max-width:350px;
+    color: var(--branco-neve);
+    font-size: var(--colossal);
+    padding-bottom: 16px;
+}
+
+.a-ideia p{
+    font-family: 'Roboto';
+    padding: 0px 0px 16px 48px;
 }
