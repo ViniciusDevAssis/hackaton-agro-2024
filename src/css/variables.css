@@ -13,10 +13,13 @@
     --branco-ovo: #F0F2F1;
 
     /* font-size */
-    --pequeno: 20px;
-    --regular: 24px;
-    --grande: 32px;
-    --extra: 64px;
+    --pequeno: 14px;
+    --regular: 16px;
+    --medio: 18px;
+    --grande: 20px;
+    --extra: 24px;
+    --enorme: 32px;
+    --colossal: 40px;
 
     /* font-weight */
     --regular: 400;
