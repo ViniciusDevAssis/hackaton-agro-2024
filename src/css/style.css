@@ -184,6 +184,7 @@ span {
     background-color: var(--azul-medio);
     padding: 32px 0px 32px 0px;
     align-items: center;
+    justify-content: center;
 }
 
 .sector-4 img {
@@ -195,9 +196,10 @@ span {
     text-decoration: none;
 }
 
-.canva-head h1 {
-    padding: 16px 0px 16px ;
+.canva-head {
+    margin-right: 170px;
     align-self: flex-end;
+    padding: 16px 0px 16px 0px ;
     color: var(--branco-ovo);
     font-size: var(--colossal);
 }
@@ -250,15 +252,14 @@ span {
 .lower {
     display: flex;
     height: 140px;
+    text-align: center;
 }
 
 #custos {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
     background-color: var(--branco-ovo);
-    flex:1;
     width: 500px;
 }
 
@@ -267,7 +268,6 @@ span {
     justify-content: center;
     align-items: center;
     background-color: var(--amarelo-canva);
-    flex:1;
     width: 500px;
 }
 
