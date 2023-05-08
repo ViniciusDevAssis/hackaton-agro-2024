@@ -20,3 +20,27 @@ links.forEach(link => { link.addEventListener('click', (evento) => {
         });
     });
 });
+
+const abrirPopupLinks = document.querySelectorAll('[data-tipo="abrir-popup"]');
+const fecharPopupLinks = document.querySelectorAll('[data-tipo="abrir-popup"]');
+const popup = document.querySelector('#popup');
+
+function abrir() {
+    // Abrir popup quando clicar no link
+    abrirPopupLinks.forEach(link => {
+      link.addEventListener('click', (evento) => {
+        evento.preventDefault();
+        popup.style.display = 'block';
+      });
+    });
+
+}
+
+
+// Fechar popup quando clicar no botão de fechar
+fecharPopupLinks.forEach(link => {
+    link.addEventListener('click', (evento) => {
+      evento.preventDefault();
+      popup.style.display = 'none';
+    });
+  });

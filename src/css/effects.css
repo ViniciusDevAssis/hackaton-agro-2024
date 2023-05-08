@@ -6,3 +6,40 @@
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
 
 }
+
+.oculto {
+    display: none;
+}
+
+#popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--branco-ovo);
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  max-width:500px;
+  color: var(--azul-escuro);
+}
+
+h4 {
+    font-size: var(--medio);
+}
+
+#popup p, h4 {
+    padding-bottom: 8px;
+    line-height: 1.2rem;
+}
+
+#popup button {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+}
+
+#popup button:hover {
+    background-color: var(--amarelo-padrao);
+    cursor: pointer;
+}
