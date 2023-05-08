@@ -21,26 +21,25 @@ links.forEach(link => { link.addEventListener('click', (evento) => {
     });
 });
 
-const abrirPopupLinks = document.querySelectorAll('[data-tipo="abrir-popup"]');
-const fecharPopupLinks = document.querySelectorAll('[data-tipo="abrir-popup"]');
-const popup = document.querySelector('#popup');
+const abrirPopups = document.querySelectorAll('[data-tipo="abrir-popup"]')
+console.log(abrirPopups)
 
-function abrir() {
-    // Abrir popup quando clicar no link
-    abrirPopupLinks.forEach(link => {
-      link.addEventListener('click', (evento) => {
-        evento.preventDefault();
-        popup.style.display = 'block';
-      });
-    });
+abrirPopups.forEach((popup) => {
+  popup.addEventListener('click', (evento) => {
+    evento.preventDefault();
+    const tipo = popup.getAttribute('id')
+    console.log(tipo)
+    const divPopup = document.querySelector(`#${tipo}-popup`)
+    divPopup.classList.remove('oculto')
+  })
+});
 
-}
+const fecharPopups = document.querySelectorAll('.fechar-popup');
 
-
-// Fechar popup quando clicar no botão de fechar
-fecharPopupLinks.forEach(link => {
-    link.addEventListener('click', (evento) => {
-      evento.preventDefault();
-      popup.style.display = 'none';
-    });
+fecharPopups.forEach((fechar) => {
+  fechar.addEventListener('click', (event) => {
+    event.preventDefault();
+    const popup = event.target.closest('.popup');
+    popup.classList.add('oculto');
   });
+});
