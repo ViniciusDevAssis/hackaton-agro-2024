@@ -274,3 +274,14 @@ span {
 /* ----- PROTOTYPE ----- */
 
 /* ----- FOOTER ----- */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--azul-escuro);
+    min-height: var(--colossal);
+    font-size: var(--regular);
+    color: var(--branco-ovo);
+    padding: 8px 0px 8px 0px;
+}
