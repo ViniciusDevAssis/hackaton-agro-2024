@@ -3,9 +3,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto+Flex:wght@400;500&family=Roboto:wght@400;500;700&display=swap');
 
 /* ----- NAVBAR ----- */
-nav, footer, h1, h2, .saiba-mais, .card p:nth-of-type(2) {
+nav, footer, h1, h2, .saiba-mais, .card p:nth-of-type(2), .sector-4 {
     font-family: 'Poppins';
     font-weight: var(--semibold);
+}
+
+a {
+    text-decoration: None;
 }
 
 nav {
@@ -114,7 +118,7 @@ span {
 }
 
 .a-ideia h2{
-    text-align: right;
+    /* text-align: right; */
     margin-left: auto;
     max-width:350px;
     color: var(--branco-neve);
@@ -133,12 +137,13 @@ span {
     display: flex;
     flex-direction: column;
     background-color: var(--branco-ovo);
-    padding: 64px 0px 32px 0px;
+    padding: 64px 160px 32px 160px;
     justify-content: center;
     align-items: center;
 }
 
 .desafio-head h2 {
+    color: var(--azul-escuro);
     justify-content: center;
     max-width:350px;
     font-size: var(--colossal);
@@ -171,3 +176,101 @@ span {
 .card p:nth-of-type(3){
     color: var(--azul-claro);
 }
+
+/* ----- CANVA ----- */
+.sector-4 {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--azul-medio);
+    padding: 32px 0px 32px 0px;
+    align-items: center;
+}
+
+.sector-4 img {
+    height: 80px;
+    height: 80px;
+}
+
+.sector-4 a {
+    text-decoration: none;
+}
+
+.canva-head h1 {
+    padding: 16px 0px 16px ;
+    align-self: flex-end;
+    color: var(--branco-ovo);
+    font-size: var(--colossal);
+}
+
+.upper {
+    display: flex;
+    text-align: center;
+}
+
+#parceiro, #proposta, #clientes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--azul-canva);
+    color: var(--branco-ovo);
+    width: 200px;
+    max-height: 390px;
+}
+
+#parceiro p, #proposta p, #clientes p {
+    color: var(--branco-ovo);
+}
+
+#atividade p, #canais p, #recurso p, #relacoes p, #custos p, #receita p {
+    color: var(--azul-canva);
+}
+
+.double {
+    flex-direction: column;
+}
+
+#atividade, #canais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 195px;
+    background-color: var(--branco-ovo);
+    width: 200px;
+}
+
+#recurso, #relacoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 195px;
+    background-color: var(--amarelo-canva);
+    width: 200px;
+}
+
+.lower {
+    display: flex;
+    height: 140px;
+}
+
+#custos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--branco-ovo);
+    flex:1;
+    width: 500px;
+}
+
+#receita {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--amarelo-canva);
+    flex:1;
+    width: 500px;
+}
+
+/* ----- PROTOTYPE ----- */
+
+/* ----- FOOTER ----- */
