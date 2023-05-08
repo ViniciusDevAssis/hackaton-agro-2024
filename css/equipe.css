@@ -1,0 +1,7 @@
+.team {
+    display: flex;
+    background-color: var(--azul-medio);
+    padding-top: 80px;
+    color: var(--branco-ovo);
+    flex-direction: column;
+}
