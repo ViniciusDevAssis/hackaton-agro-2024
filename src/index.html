@@ -7,6 +7,7 @@
 
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/effects.css">
 
     <title>Portfólio</title>
 </head>
@@ -14,17 +15,21 @@
 <body>
     <nav>
         <div>
-            <a href="./index.html"><img src="../assets/img/duck.png" alt="logomarca-pato-borracha" class="logo"></a>
+            <a href="./index.html" onclick="tocarAudio()">
+                <!-- <audio id="quack" src="../assets/sound/quack.wav"></audio> -->
+                <img src="../assets/img/duck.png" alt="logomarca-pato-borracha" class="logo">
+            </a>
         </div>
         <div class="navbar-right">
-            <a href="">QUEM SOMOS</a>
-            <a href="">A IDEIA</a>
-            <a href="">CANVA <span>BUSINESS</span></a>
+            <a href="#quem">QUEM SOMOS</a>
+            <a href="#ideia">A IDEIA</a>
+            <a href="#canva">CANVA <span>BUSINESS</span></a>
         </div>
     </nav>
-
+    <audio id="quack" src="../assets/sound/quack.wav"></audio>
+    
     <main>
-        <section class="sector-1">
+        <section class="sector-1" id="quem">
             <article class="quem-somos">
                 <p>QUEM SOMOS</p>
                 <h2>da sala para o mundo<span>.</span></h2>
@@ -39,7 +44,7 @@
             </div>
         </section>
 
-        <section class="sector-2">
+        <section class="sector-2" id="ideia">
             <div class="img-debate">
                 <img src="../assets/img/debate.png" alt="">
             </div>
@@ -53,7 +58,7 @@
             </article>
         </section>
 
-        <section class="sector-3">
+        <section class="sector-3" id="desafio">
             <div class="desafio-head">
                 <h2>os desafios a enfrentar<span>.</span></h2>
             </div>
@@ -85,7 +90,7 @@
             </article>
         </section>
 
-        <section class="sector-4">
+        <section class="sector-4" id="canva">
             <h1 class="canva-head">canva <span>business</span></h1>
 
             <div class="upper">
@@ -161,5 +166,6 @@
         <p>DESENVOLVIDO POR FULLSTACK.DUCK - 2023</p>
     </footer>
     
+    <script src="../js/efeitos.js"></script>
 </body>
 </html>

@@ -2,6 +2,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto+Flex:wght@400;500&family=Roboto:wght@400;500;700&display=swap');
 
+body {
+  overflow: auto;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+  &::-webkit-scrollbar {
+    width: 0 !important; /* Safari and Chrome */
+  }
+}
+
 /* ----- NAVBAR ----- */
 nav, footer, h1, h2, .saiba-mais, .card p:nth-of-type(2), .sector-4 {
     font-family: 'Poppins';
@@ -217,6 +226,7 @@ span {
     color: var(--branco-ovo);
     width: 200px;
     max-height: 390px;
+    transition: transform 0.2s ease-in-out;
 }
 
 #parceiro p, #proposta p, #clientes p {
@@ -238,6 +248,7 @@ span {
     height: 195px;
     background-color: var(--branco-ovo);
     width: 200px;
+    transition: transform 0.2s ease-in-out;
 }
 
 #recurso, #relacoes {
@@ -247,6 +258,7 @@ span {
     height: 195px;
     background-color: var(--amarelo-canva);
     width: 200px;
+    transition: transform 0.2s ease-in-out;
 }
 
 .lower {
@@ -261,6 +273,7 @@ span {
     align-items: center;
     background-color: var(--branco-ovo);
     width: 500px;
+    transition: transform 0.2s ease-in-out;
 }
 
 #receita {
@@ -269,6 +282,7 @@ span {
     align-items: center;
     background-color: var(--amarelo-canva);
     width: 500px;
+    transition: transform 0.2s ease-in-out;
 }
 
 /* ----- PROTOTYPE ----- */
