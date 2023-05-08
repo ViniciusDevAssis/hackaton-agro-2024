@@ -175,6 +175,7 @@ span {
     font-family: 'Roboto Flex';
     color: var(--azul-escuro);
     padding-bottom: 8px;
+    text-align: justify;
 }
 
 .card p:first-of-type{
@@ -231,10 +232,12 @@ span {
 
 #parceiro p, #proposta p, #clientes p {
     color: var(--branco-ovo);
+    text-align: center;
 }
 
 #atividade p, #canais p, #recurso p, #relacoes p, #custos p, #receita p {
     color: var(--azul-canva);
+    text-align: center;
 }
 
 .double {
