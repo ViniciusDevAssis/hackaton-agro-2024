@@ -1,6 +1,6 @@
 @import url("variables.css");
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto+Flex:wght@400;500&family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto+Flex:wght@400;500&family=Roboto:wght@400;500;700&family=Viga&display=swap');
 
 body {
   overflow: auto;
@@ -291,6 +291,50 @@ span {
 }
 
 /* ----- PROTOTYPE ----- */
+
+.sector-5 {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--branco-ovo);
+    padding: 3rem 0rem 2rem 0rem;
+    color: var(--azul-escuro);
+    justify-content: center;
+    
+}
+.sector-5 div {
+    max-width: 50%;
+}
+
+.prototipo {
+    max-width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+.prototipo h2 {
+    font-size: var(--colossal);
+    padding-bottom: 2rem;
+}
+.prototipo #boxes {
+    font-family: 'Viga';
+    color: var(--roxo-medio);
+}
+
+.prototipo p {
+    font-family: 'Roboto Flex';
+    color: var(--azul-claro);
+    padding-bottom: 1rem;
+    line-height: 1.5rem;
+    font-weight: var(--medio);
+}
+
+.img-prot {
+    text-align: center;
+}
+
+.img-prot img {
+    max-height: 20rem;
+    max-width: 20rem;
+}
 
 /* ----- FOOTER ----- */
 
