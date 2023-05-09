@@ -31,7 +31,7 @@ nav {
     background-color: var(--azul-escuro);
     min-height: var(--colossal);
     align-items: center;
-    padding: 8px 96px 8px 96px;
+    padding: 0.5rem 6rem 0.5rem 6rem;
     justify-content: space-between;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.25);
 
@@ -40,13 +40,13 @@ nav {
 .navbar-right a{
     text-decoration: none;
     color: var(--branco-neve);
-    padding-left: 80px;
+    padding-left: 5rem;
     font-size: var(--grande);
 }
 
 .logo {
-    max-width: 48px;
-    max-height: 48px;
+    max-width: 3rem;
+    max-height: 3rem;
 }
 
 span {
@@ -58,12 +58,12 @@ span {
 .sector-1 {
     display: flex;
     background-color: var(--azul-medio);
-    padding-top: 80px;
+    padding-top: 5rem;
 }
 
 .quem-somos p{
     font-family: 'Roboto';
-    padding: 0px 48px 16px 0px;
+    padding: 0px 3rem 1rem 0px;
 }
 
 .quem-somos {
@@ -71,7 +71,7 @@ span {
     flex: 1;
     flex-direction: column;
     background-color: var(--azul-medio);
-    padding-left: 160px;
+    padding-left: 10rem;
     color: var(--azul-cinza);
     font-size: var(--medio);
 }
@@ -80,11 +80,11 @@ span {
     color: var(--branco-neve);
     font-size: var(--colossal);
     max-width: 350px;
-    padding-bottom: 16px;
+    padding-bottom: 1rem;
 }
 
 .img-uniao img {
-    margin-top: 16px;
+    margin-top: 1rem;
     max-width: 600px;
     max-height: 350px;
     box-shadow: -5px 10px 15px rgba(0, 0, 0, 0.50);
@@ -99,14 +99,14 @@ span {
 .sector-2 {
     display: flex;
     background-color: var(--azul-medio);
-    padding-top: 16px;
+    padding-top: 1rem;
 }
 .img-debate {
     position: absolute;
 }
 
 .img-debate img {
-    margin-top: 16px;
+    margin-top: 1rem;
     max-width: 600px;
     max-height: 350px;
     box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.50);
@@ -120,7 +120,7 @@ span {
     flex: 2;
     flex-direction: column;
     background-color: var(--azul-medio);
-    padding: 32px 160px 16px 160px;
+    padding: 2rem 10rem 1rem 10rem;
     color: var(--azul-cinza);
     font-size: var(--medio);
     text-align: right;
@@ -129,15 +129,15 @@ span {
 .a-ideia h2{
     /* text-align: right; */
     margin-left: auto;
-    max-width:350px;
+    max-width: 22rem;
     color: var(--branco-neve);
     font-size: var(--colossal);
-    padding-bottom: 16px;
+    padding-bottom: 1rem;
 }
 
 .a-ideia p{
     font-family: 'Roboto';
-    padding: 0px 0px 16px 48px;
+    padding: 0rem 0rem 1rem 3rem;
 }
 
 /* ----- DESAFIOS ----- */
@@ -146,7 +146,7 @@ span {
     display: flex;
     flex-direction: column;
     background-color: var(--branco-ovo);
-    padding: 64px 160px 32px 160px;
+    padding: 4rem 10rem 2rem 10rem;
     justify-content: center;
     align-items: center;
 }
@@ -154,10 +154,10 @@ span {
 .desafio-head h2 {
     color: var(--azul-escuro);
     justify-content: center;
-    max-width:350px;
+    max-width: 22rem;
     font-size: var(--colossal);
     text-align: right;
-    padding-bottom: 32px;
+    padding-bottom: 2rem;
 }
 
 .desafios {
@@ -167,14 +167,14 @@ span {
 
 .card {
     justify-content: space-around;
-    max-width: 200px;
-    padding: 0px 8px;
+    max-width: 14rem;
+    padding: 0rem 0.5rem;
 }
 
 .card p{
     font-family: 'Roboto Flex';
     color: var(--azul-escuro);
-    padding-bottom: 8px;
+    padding-bottom: 0.5rem;
     text-align: justify;
 }
 
@@ -192,14 +192,15 @@ span {
     display: flex;
     flex-direction: column;
     background-color: var(--azul-medio);
-    padding: 32px 0px 32px 0px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     align-items: center;
     justify-content: center;
 }
 
 .sector-4 img {
-    height: 80px;
-    height: 80px;
+    height: 5rem;
+    width: 5rem;
 }
 
 .sector-4 a {
@@ -207,9 +208,10 @@ span {
 }
 
 .canva-head {
-    margin-right: 170px;
-    align-self: flex-end;
-    padding: 16px 0px 16px 0px ;
+    display: flex;
+    justify-content: end;
+    padding-top: 1rem;
+    padding-bottom: 1rem; 
     color: var(--branco-ovo);
     font-size: var(--colossal);
 }
@@ -300,5 +302,6 @@ footer {
     min-height: var(--colossal);
     font-size: var(--regular);
     color: var(--branco-ovo);
-    padding: 8px 0px 8px 0px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }

@@ -1,7 +1,75 @@
+@import url("variables.css");
+
 .team {
     display: flex;
-    background-color: var(--azul-medio);
-    padding-top: 80px;
-    color: var(--branco-ovo);
     flex-direction: column;
+    width: full;
+    background-color: var(--azul-medio);
+    padding-top: 5rem;
+    color: var(--branco-ovo);
+    justify-content: center;
+    padding: 5rem 10rem 2rem;
+}
+
+.head{
+    display: flex;
+    font-size: var(--enorme);
+    justify-content: center;
+    padding: 1rem 0rem 2rem 0rem;
+}
+.perfil {
+    display: flex;
+    align-items: center;
+    max-width: 1;
+    background: linear-gradient(90deg, rgba(47,59,80,1) 0%, rgba(65,82,109,1) 76%);
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+}
+
+#img-perfil {
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+    border: 0.25rem solid var(--branco-ovo);
+    
+}
+
+.resumo {
+    padding: 1rem;
+}
+
+.resumo p:nth-child(2) {
+    font-family: 'Roboto';
+    padding-bottom: 0.25rem;
+    line-height: 1.5rem;
+    text-align: justify;
+}
+.resumo p:nth-child(3) {
+    font-family: 'Roboto Flex';
+    padding-bottom: 0.25rem;
+    line-height: 1.075rem;
+    text-align: justify;
+    font-size: var(--pequeno);
+}
+
+.resumo h2 {
+    font-size: var(--medio);
+    padding-bottom: 0.5rem;
+}
+
+#direita {
+    text-align: right;
+    justify-content: flex-end;
+    background: linear-gradient(90deg, rgba(65,82,109,1) 0%,  rgba(47,59,80,1) 76%);
+}
+
+article a {
+    color: var(--branco-ovo);
+    font-family: 'Poppins';
+}
+
+article a:hover{
+    transition: 0.2s;
+    color: var(--amarelo-padrao);
 }
