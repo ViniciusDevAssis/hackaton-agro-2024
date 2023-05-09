@@ -1,7 +1,7 @@
 @import url("variables.css");
 @import url("styles.css");
 
-.upper div:hover, .lower div:hover{
+.destaque:hover{
     transform: scale(1.05);
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
 
