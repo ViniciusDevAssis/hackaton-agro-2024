@@ -1,10 +1,15 @@
 
-// função para tocar pato
-function tocarAudio() {
+//função para tocar pato
+async function tocarAudio() {
     const audio = document.getElementById("quack");
     audio === null ? console.log('Elemento não encontrado') : audio.play();
+
+    await new Promise(resolve => setTimeout(resolve, 1000));
+    window.location.href = "index.html";
 }
 
+
+// -------------------------------------------------------//
 // percorre a árvore DOM
 const links = document.querySelectorAll('nav a');
 
@@ -20,7 +25,7 @@ links.forEach(link => { link.addEventListener('click', (evento) => {
         });
     });
 });
-
+ // ------------------------------------------------------ //
 const abrirPopups = document.querySelectorAll('[data-tipo="abrir-popup"]')
 console.log(abrirPopups)
 
@@ -44,6 +49,7 @@ fecharPopups.forEach((fechar) => {
   });
 });
 
+// ----------------------------------------------------//
 function toggleMenu() {
   // percorre a árvore DOM
   const navbarDropDown = document.querySelector('.navbar-dropdown');
