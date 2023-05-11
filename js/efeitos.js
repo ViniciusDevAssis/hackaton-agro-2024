@@ -43,3 +43,9 @@ fecharPopups.forEach((fechar) => {
     popup.classList.add('oculto');
   });
 });
+
+function toggleMenu() {
+  // percorre a árvore DOM
+  const navbarDropDown = document.querySelector('.navbar-dropdown');
+  navbarDropDown.style.display = (navbarDropDown.style.display === 'block') ? 'none' : 'block';
+}

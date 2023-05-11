@@ -46,6 +46,7 @@ nav {
 
 .navbar-toggle{
     display: none;
+    cursor: pointer;
 }
 
 .logo {
@@ -56,6 +57,36 @@ nav {
 span {
     color: var(--amarelo-padrao)
 }
+
+/* DROPBOX */
+.navbar-dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 50%;
+  text-align: center;
+  background-color: rgba(47,59,80,0.95);
+  border-top: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-dropdown li {
+  list-style: none;
+}
+
+.navbar-dropdown li:first-child {
+  border-top: none;
+}
+
+.navbar-dropdown li a {
+  display: block;
+  color: var(--branco-ovo);
+  text-decoration: none;
+  padding: 0.625rem;
+}
+
 
 /* ----- QUEM SOMOS ----- */
 
