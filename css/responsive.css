@@ -1,0 +1,140 @@
+@media screen and (max-width: 768px){
+
+    /* ----- NAVBAR ----- */
+
+    nav {
+        width: 100vw;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+    }
+
+    .navbar-right {
+        display: none;
+    }
+
+    .navbar-toggle{
+        display: block;
+    }
+
+    /* ----- QUEM SOMOS ----- */
+
+    .quem-somos {
+        padding-left: 3rem;
+        padding-right: 1rem;
+    }
+
+    .quem-somos p {
+        padding-right: 2rem;
+        /* text-align: justify; */
+    }
+
+    .img-uniao {
+        display: none;
+    }
+
+    /* ----- A IDEIA ----- */
+
+    .img-debate {
+        display: none;
+    }
+
+    .vazia {
+        display: none;
+    }
+
+    .a-ideia {
+        padding-right: 3rem;
+        padding-left: 1rem;
+    }
+
+    .a-ideia p {
+        padding-left: 2rem
+    }
+
+    /* ----- DESAFIOS ----- */
+
+    .sector-3 {
+        padding: 2rem 3rem 2rem 3rem;
+    }
+
+    .desafios {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        margin-top: 0.5rem;
+        justify-content: center;
+        width: auto;
+    }
+
+    /* ----- CANVA ----- */
+    .sector-4 {
+        padding: 1rem 1rem 2rem 1rem;
+    }
+
+    .grupo-responsivo {
+        width: 100%;
+        font-size: 10px;
+    }
+
+    .sector-4 img{
+        display: none;
+    }
+
+    .canva-head {
+        display: flex;
+        padding-right: 0.75rem;
+        font-size: var(--enorme);
+    }
+
+    #parceiro, #proposta, #clientes {
+        width: 150px;
+        height: 150px;
+        max-height: unset;
+        max-width: 100%;
+    }
+
+    #atividade, #recurso, #relacoes, #canais {
+        height: 75px;
+        width: 75px;
+    }
+
+    .lower {
+        max-height: 75px;
+    }
+
+    #custos, #receita {
+        width: 100%;
+        height: 75px;
+    }
+
+
+
+
+    /* ----- PROTOTYPE ----- */
+    .sector-5 {
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 2rem 3rem 2rem 3rem;
+    }
+
+    .sector-5 div {
+        max-width: 100%;
+    }
+
+    .prototipo {
+        max-width: 100%;
+    }
+
+    .img-prot img {
+        max-height: 15rem;
+        max-width: 15rem;
+    }
+
+    /* ----- FOOTER ----- */
+    footer {
+        font-size: var(--pequeno)
+    }
+
+}

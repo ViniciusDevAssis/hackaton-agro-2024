@@ -23,7 +23,7 @@ a {
 
 nav {
     position: fixed;
-    width: 100%;
+    width: 100vw;
     box-sizing: border-box;
     display: flex;
     z-index: 9999;
@@ -42,6 +42,10 @@ nav {
     color: var(--branco-neve);
     padding-left: 5rem;
     font-size: var(--grande);
+}
+
+.navbar-toggle{
+    display: none;
 }
 
 .logo {
